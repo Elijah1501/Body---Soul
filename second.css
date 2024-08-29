@@ -1,0 +1,124 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "heading_1 heading_1 heading_1 heading_1"
+    "heading_2 heading_2 heading_3 heading_3"
+    "heading_4 heading_4 heading_5 heading_5"
+    "heading_6 heading_6 heading_7 heading_7";
+    background-color: #f9f9f9;
+}
+
+.navbar{
+    grid-area: navbar;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color:#b80c09;
+    }
+    
+    .navbar ul{
+        list-style-type: none;
+    }
+    
+    .navbar li{
+    display:inline;
+    padding:20px;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-color: #000 ;
+    border-width: 2px;
+    }
+
+    .heading_1{
+        grid-area: heading_1;
+        text-align: center;
+        color: #f9f9f9;
+        font-size: 50px;
+            border-style: solid;
+            border-color: #f9f9f9;
+        font-style: normal;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+    .heading_2{
+        grid-area: heading_2;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+    .heading_3{
+        grid-area: heading_3;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+
+    .heading_4{
+        grid-area: heading_4;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+
+    .heading_5{
+        grid-area: heading_5;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+    .heading_6{
+        grid-area: heading_6;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+    .heading_7{
+        grid-area: heading_7;
+        background-color: #090446;
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 30px;
+        border-style: solid;
+            border-color: #f9f9f9 ;
+    border-width: 2px;
+        background: linear-gradient(to bottom, #4281a4, #090446)
+    }
+
+    body {
+        font-family: "Bebas Neue", sans-serif;
+        }
